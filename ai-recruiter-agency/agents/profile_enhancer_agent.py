@@ -1,5 +1,6 @@
 from typing import Dict, Any
-from swarm import Agent
+# Check if the 'swarm' module is installed
+from swarm import Agent # type: ignore
 
 
 # Profile Enhancer agent: Enhances the candidate's profile

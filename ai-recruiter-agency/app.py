@@ -229,18 +229,18 @@ def main():
         st.write(
             """
         Welcome to AI Recruiter Agency, a cutting-edge recruitment analysis system powered by:
-        
+
         - **Ollama (llama3.2)**: Advanced language model for natural language processing
         - **Swarm Framework**: Coordinated AI agents for specialized tasks
         - **Streamlit**: Modern web interface for easy interaction
-        
+
         Our system uses specialized AI agents to:
         1. 📄 Extract information from resumes
         2. 🔍 Analyze candidate profiles
         3. 🎯 Match with suitable positions
         4. 👥 Screen candidates
         5. 💡 Provide detailed recommendations
-        
+
         Upload a resume to experience AI-powered recruitment analysis!
         """
         )

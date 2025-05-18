@@ -28,7 +28,7 @@ class BaseAgent:
                 temperature=0.7,
                 max_tokens=2000,
             )
-            return response.choices[0].message.content
+            return response.choices[0].message.content or ""
         except Exception as e:
             print(f"Error querying Ollama: {str(e)}")
             raise

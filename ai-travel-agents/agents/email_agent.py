@@ -99,9 +99,9 @@ class EmailAgent(BaseAgent):
 
     def send_email(self, to_email: str, content: str) -> bool:
         from_email = Email("paulo@vincimind.com")
-        to_email = To(to_email)
+        to_email = To(to_email) # type: ignore
         subject = "Your Travel Recommendations"
-        content = Content("text/html", content)
+        content = Content("text/html", content)  # type: ignore
         message = Mail(
             from_email=from_email,
             to_emails=to_email,

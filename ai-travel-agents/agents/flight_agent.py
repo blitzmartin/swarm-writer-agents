@@ -68,7 +68,7 @@ class FlightAgent(BaseAgent):
         #     print(f"HTTP error occurred: {http_err}")
         #     print(f"Response content: {response.content}")
 
-        return results
+        return results # type: ignore
 
     def _parse_flight_data(self, data: Dict[str, Any]) -> Dict[str, Any]:
         """Parse flight data from the API response"""

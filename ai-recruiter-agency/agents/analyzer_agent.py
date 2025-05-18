@@ -13,7 +13,7 @@ class AnalyzerAgent(BaseAgent):
             4. Experience level (Junior/Mid-level/Senior)
             5. Key achievements
             6. Domain expertise
-            
+
             Format the output as structured data.""",
         )
 
